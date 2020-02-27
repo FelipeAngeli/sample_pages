@@ -1,0 +1,314 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u,
+i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,
+figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+.background {
+  
+  background-image: url("../resources//background1.png");
+  background-color: #cccccc;
+  height: 640px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+
+
+h1 {
+  font-size: 2.25em;
+  padding: 0 1em;
+  font-weight: bold;
+  color: rgb(0, 0, 0); text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 30px;
+  color: rgb(36, 35, 35); text-shadow: rgb(87, 86, 86) 0.1em 0.1em 0.2em
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ion-icon {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.gap {
+  padding: 1em 0 0;
+  margin-top: 50px;
+}
+
+
+
+.padDown {
+  padding: 0.5em 0em 0.5em;
+}
+
+.outer {
+  padding: 10px;
+  text-align: center;
+  overflow-x: hidden;
+  
+  
+
+  color: #333;
+  text-align: center;
+  font-family: 'Roboto', sans-serif; 
+}
+
+.inner {
+  display: inline-block;
+  padding: 30px;
+}
+
+.avatar {
+  -moz-box-shadow: 0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
+  -webkit-box-shadow: 0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
+  box-shadow: 0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+}
+
+.loadanimation {
+  animation: 2s ease-in-out both fadeInRight;
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(300px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+
+.tile {
+  animation: .4s ease-in-out both fade-in;
+}
+
+.tile:nth-child(1) {
+  animation-delay: 1.35s;
+}
+
+.tile:nth-child(2) {
+  animation-delay: 1.5s;
+}
+
+.tile:nth-child(3) {
+  animation-delay: 1.65s;
+}
+
+.tile:nth-child(4) {
+  animation-delay: 1.8s;
+}
+
+.tile:nth-child(5) {
+  animation-delay: 1.95s;
+}
+
+.tile:nth-child(6) {
+  animation-delay: 2.1s;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.social li {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  margin: .5em;
+  -moz-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+
+.social li:hover {
+  -moz-transform: scale(1.25, 1.25);
+  -ms-transform: scale(1.25, 1.25);
+  -webkit-transform: scale(1.25, 1.25);
+  transform: scale(1.25, 1.25);
+  color: white;
+}
+
+.social li:before {
+  position: absolute;
+  width: 2em;
+  margin-left: -1em;
+  top: 1.5em;
+  left: 50%;
+}
+
+.social li a {
+  display: block;
+  color: inherit;
+  padding: 1em 1em 1em;
+  width: 6em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-shadow: rgb(180, 180, 180) 0.1em 0.1em 0.2em
+}
+
+.icon-resume {
+  color: rgb(36, 35, 35); text-shadow: rgb(87, 86, 86) 0.1em 0.1em 0.2em;
+}
+
+.icon-resume:hover {
+  background:  rgb(255, 150, 64);
+}
+
+.icon-email {
+  color: rgb(36, 35, 35); text-shadow: rgb(87, 86, 86) 0.1em 0.1em 0.2em;
+}
+
+.icon-email:hover {
+  background:  rgb(255, 150, 64); 
+}
+
+.icon-github {
+  color: rgb(36, 35, 35); text-shadow: rgb(87, 86, 86) 0.1em 0.1em 0.2em;
+}
+
+.icon-github:hover {
+  background:  rgb(255, 150, 64);
+}
+
+.icon-linkedin {
+  color: rgb(36, 35, 35); text-shadow: rgb(87, 86, 86) 0.1em 0.1em 0.2em;
+}
+
+.icon-linkedin:hover {
+  background:  rgb(255, 150, 64);
+}
+
+.icon-instagram {
+  color: #cd486b;
+}
+
+.icon-instagram:hover {
+  background:  rgb(255, 150, 64);
+}
+
+.icon-transcript {
+  color: rgb(36, 35, 35); text-shadow: rgb(87, 86, 86) 0.1em 0.1em 0.2em;
+}
+
+.icon-transcript:hover {
+  background: rgb(255, 150, 64);
+}
+
+#spin {
+  color: rgb(255, 150, 64);
+}
+
+#spin:after {
+  content: "";
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    content: "Go";
+  }
+  10% {
+    content: "Terraform";
+  }
+  20% {
+    content: "Java";
+  }
+  30% {
+    content: "Python";
+  }
+  40% {
+    content: "Node";
+  }
+  50% {
+    content: "JavaScript";
+  }
+  60% {
+    content: "PHP";
+  }
+  70% {
+    content: "VB.Net";
+  }
+  80% {
+    content: "React";
+  }
+  90% {
+    content: "C";
+  }
+  100% {
+    content: "Bash";
+  }
+}
